@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans:ital@1&family=Roboto:ital,wght@1,300&display=swap');
+/* 
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    color: white;
+     background: black;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: sticky;
+     top: 0%;
+     padding: 0.7rem;
+}
+.navbar ul{ 
+    display: flex;
+    
+}
+.navbar ul li{
+     list-style: none;
+    
+}
+.navbar ul li a{
+    color:rgb(248, 3, 3);
+    text-decoration: none;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif; ;
+   
+}
+.navbar ul li a:hover{
+    background:gold;
+}
+.logo{
+    font-family: 'Lobster', cursive;
+}
+.logo span {
+    color:gold;
+}
+
+.head{
+    background: url('1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 97vh;
+    background-size: cover;
+   
+
+}
+.head div{
+    color: white;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;;
+
+    
+}
+.head-box{
+    font-size: 4rem;
+    margin-bottom: 0.8rem;
+}
+.para{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    color: rgb(250, 3, 3);
+    background:gold ;
+    padding: 0.5rem;
+    width: 5rem;
+}
+#services{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin: 10px auto;
+    width: 85rem;
+}
+.cards{
+    text-align: center;
+}
+.cards{
+    background-color: gold;
+    padding: 2rem;
+    border-radius: 9rem;
+}
+.cow{
+    background-color: red;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    width: 5rem;
+    margin-left: 10rem;
+}
+#about{
+    background: url('2.jpg');
+    height: 70vh;
+    background-size: cover;
+}
+.abouturn{
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+}
+.about-h{
+    color: white;
+    text-align: right;
+    padding: 8rem 6rem 0 45rem;
+    font-size: 3rem;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.abouties{
+    color: white;
+    text-align: justify;
+    padding: 1rem 6rem 0 60rem;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.aboutbutton{
+    float: right;
+    margin: 1rem 6rem 0rem 0rem;
+    padding: 0.5rem;
+
+}
+#img{
+    background: url('6.png');
+    background-size: cover;
+    height: 40rem;
+    width: 59rem;
+ 
+}
+.forms{
+    text-align: right;
+    margin-left:60rem ;
+    margin-top: 5rem;
+}
+input{
+    height: 2.5rem;
+    width: 25rem;
+    border: 3px solid gold;
+}
+.h-f{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: right;
+    font-size: 4rem;
+}
+lable{
+    font-size: 1.2rem;
+}
+.f-btn{
+    background: gold;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.footer{
+    background: gold;
+    width: 100%;
+    height: 70px;
+}
+.ft-h1{
+    font-family: 'Lobster', cursive;
+    color: red;
+    text-align: center;
+    
+}
+.pipi{
+    color: red;
+    text-align: center;
+    font-size: 1.2rem;
+}
